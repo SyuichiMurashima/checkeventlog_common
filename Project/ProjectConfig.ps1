@@ -7,7 +7,7 @@
 $C_ProjectName = "Common"
 
 # プロジェクト リポジトリ
-$C_ProjectRepository = "git@bitbucket.org:gloops-system/checkeventlog_common.git"
+$C_ProjectRepository = "git@github.com:SyuichiMurashima/checkeventlog_common.git"
 
 # AP Server アクセスアカウント
 $C_APServerAccount = "jp\ApLogManager"
