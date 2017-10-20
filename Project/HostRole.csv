@@ -1,0 +1,19 @@
+HostName,IPAddress,CNAME,Role,MailServer,CheckAPLogName,IsAPServer
+JP-ADFS001,172.27.100.54,JP-ADFS001,ADFS,172.24.2.61,,
+d05517-apb,172.24.2.145,jp-adfs002,ADFS,172.24.2.61,,
+d06913-apb,172.24.2.146,jp-adfs003,ADFS,172.24.2.61,,
+JP-ADS001,172.27.100.55,JP-ADS001,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+D02324-APA,172.27.100.57,JP-ADS005,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+JP-ADS004,192.168.226.53,JP-ADS004,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+d03619-apa,172.27.100.51,Hyper-V 03,Hyper-V,172.24.2.61,Microsoft-Windows-Hyper-V-*,
+d03620-apa,172.27.100.52,Hyper-V 04,Hyper-V,172.24.2.61,Microsoft-Windows-Hyper-V-*,
+d03621-apa,172.27.100.53,Hyper-V 04,Hyper-V Reserve,172.24.2.61,,Y
+d00938-apb,172.24.2.151,common-01,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+D00822-APA,172.24.2.152,common-02,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+d00421-apa,172.24.2.153,manage-01,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+d00422-apa,172.24.2.154,manage-01,ADDS,172.24.2.61,DFS Replication:Directory Service:DNS Server,
+jp-wsus001,192.168.226.55,jp-wsus001,WSUS,172.24.2.61,,Y
+d02609-apb,172.24.2.157,RDLS12-01,RDLS,172.24.2.61,,Y
+d02709-apb,172.24.2.158,RDLS12-02,RDLS,172.24.2.61,,Y
+d03722-apa,172.24.2.155,RDLS08-01,RDLS,172.24.2.61,,Y
+d03622-apa,172.24.2.156,RDLS08-02,RDLS,172.24.2.61,,Y
